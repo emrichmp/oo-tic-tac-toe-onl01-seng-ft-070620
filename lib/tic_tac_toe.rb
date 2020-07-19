@@ -125,9 +125,9 @@ end
     end
   end
   
-  def play(board)
-    until over?(board) == true
-      turn(board)
+  def play()
+    until over? == true
+      turn
     end
   end
   
