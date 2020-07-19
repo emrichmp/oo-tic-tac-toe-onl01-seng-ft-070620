@@ -104,11 +104,13 @@ end
   end
   
   def over?()
-  if won? || draw?
-    return true
-  else
-    return false
+    if won? || draw?
+      return true
+    else
+      return false
+    end
   end
-end
+  
+  
   
 end
