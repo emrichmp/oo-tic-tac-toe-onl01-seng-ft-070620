@@ -95,6 +95,12 @@ end
     @board.all? {|index| index == "X" || index == "O"}
   end
   
-  
+  def draw?()
+  if !won?(@board) && full?(@board)
+    return true
+  else
+    return false
+  end
+end
   
 end
